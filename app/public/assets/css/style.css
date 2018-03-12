@@ -1,3 +1,9 @@
 body{
     background-image: url('../media/images/topography.png');
 }
+.collection-header{
+    color: #f5f5f5;
+}
+#startLink{
+    color: blue;
+}

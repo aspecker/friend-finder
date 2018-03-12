@@ -21,6 +21,8 @@ $(document).on('click','#submit',function (event){
         // console.log(matchPic);
         getMatch();
     })
+    $('#name').val('');
+    $('#picLink').val('');
 
 });
 
@@ -60,8 +62,8 @@ var createModal = (name,pic) =>{
     var modal = $('#matchModal');
     $('#modalTxt').text(name);
     $('#modalPic').attr('src',pic);
-    $(document).on('click','.close',function(){
-        modal.style.display = "none";
+    $('.close').on('click',function(){
+        $('#matchModal').modal('close');
     });
     window.onclick = function(event) {
         if (event.target == modal) {
