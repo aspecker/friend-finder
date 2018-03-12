@@ -32,8 +32,8 @@ var friends = [
       ]
   },
   {
-      "name": "Vlodimir",
-      "photo": "http://custom-gwent.com/cardsBg/69c85d487b7b9002061a088c11f650fe.jpeg",
+      "name": "Francesca",
+      "photo": "http://img15.deviantart.net/08d4/i/2017/155/0/2/francesca_by_tamikaproud-dbbinnv.jpg",
       "scores":[
           3,
           3,

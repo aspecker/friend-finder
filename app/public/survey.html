@@ -12,7 +12,7 @@
 <body>
 
     <nav>
-        <div class="nav-wrapper green lighten-2">
+        <div class="nav-wrapper green darken-3">
             <a href="/" class="brand-logo">Seek a Sorceress</a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li><a href="/">Home</a></li>
@@ -20,14 +20,14 @@
                 </ul>
         </div>
     </nav>
-            
+<div class ='main'>            
     <div class ="container">
         <div class ='row'>
-            <div class ='col s12 m8 l8'>
+            <div class ='col s12 m12 l12'>
                 <ul class="collection with-header">
                     
-                    <li class="collection-header green lighten-2 "><h4>Let's get started</h4></li>
-                    <div class ="input-field col s12">
+                    <li class="collection-header green darken-3 "><h4>Let's get started</h4></li>
+                    <div class ="input-field">
                         <form>
                             <h5>About You</h5>
                             Your Name (required)<br>
@@ -35,9 +35,10 @@
                             Link to your photo (required)<br>
                                 <input type="text" id="picLink" name="picLink">
                         </form>   
+                    </div>
                     </li>
                 </ul>
-                    <div class ="input-field col s12">
+                    <div class ="input-field">
                         <h5>Question 1</h5><br>
                         <p>How much disdain do you have for people lacking magical skills?</p>
                         <select name="q1" id="q1" type='number'>
@@ -47,9 +48,8 @@
                             <option value="4">4</option>
                             <option value="5">5 (Strongly agree)</option>
                         </select>
-                    
                     </div>
-                    <div class ="input-field col s12">                       
+                    <div class ="input-field">                       
                         <h5>Question 2</h5><br>
                         <p>I am question 2</p>
                         <select type='number' name="q2" id="q2">
@@ -60,7 +60,7 @@
                             <option value="5">5 (Strongly agree)</option>
                         </select>
                     </div>
-                    <div class ="input-field col s12">
+                    <div class ="input-field">
                         <h5>Question 3</h5><br>
                         <p>I am question 3</p>
                         <select type='number' name="q3" id="q3">
@@ -71,7 +71,7 @@
                             <option value="5">5 (Strongly agree)</option>
                         </select>
                     </div>
-                    <div class ="input-field col s12">
+                    <div class ="input-field">
                         <h5>Question 4</h5><br>
                         <p>I am question 4</p>
                         <select type='number' name="q4" id="q4">
@@ -82,7 +82,7 @@
                             <option value="5">5 (Strongly agree)</option>
                         </select>
                     </div>
-                    <div class ="input-field col s12">
+                    <div class ="input-field">
                         <h5>Question 5</h5><br>
                         <p>I am question 5</p>                            
                         <select type='number' name="q5" id="q5" type='number'>
@@ -93,7 +93,7 @@
                             <option value="5">5 (Strongly agree)</option>
                         </select>
                     </div>
-                    <div class ="input-field col s12">
+                    <div class ="input-field">
                         <h5>Question six</h5><br>
                         <p>I am question six</p>
                         <select type='number' name="q6" id="q6">
@@ -104,7 +104,7 @@
                             <option value="5">5 (Strongly agree)</option>                         
                        </select>
                     </div>
-                    <div class ="input-field col s12">
+                    <div class ="input-field">
                         <h5>Question seven</h5><br>
                         <p>I am question seven</p>
                         <select type='number' name="q7" id="q7">
@@ -115,7 +115,7 @@
                             <option value="5">5 (Strongly agree)</option>
                         </select>
                     </div>
-                    <div class ="input-field col s12">
+                    <div class ="input-field">
                         <h5>Question eight</h5><br>
                         <p>I am question eight</p>
                         <select type='number' name="q8" id="q8">
@@ -126,7 +126,7 @@
                             <option value="5">5 (Strongly agree)</option>
                         </select>
                     </div>
-                    <div class ="input-field col s12">
+                    <div class ="input-field">
                         <h5>Question nine</h5><br>
                         <p>I am question nine</p>
                         <select type='number' name="q9" id="q9">
@@ -137,7 +137,7 @@
                             <option value="5">5 (Strongly agree)</option>
                         </select>
                     </div>
-                    <div class ="input-field col s12">
+                    <div class ="input-field">
                         <h5>Question ten</h5><br>
                         <p>I am question ten</p>
                         <select type='number' name="q10" id="q10">
@@ -149,25 +149,28 @@
                         </select>
                     </div>
 
-                    <button class="btn waves-effect waves-light pink modal-trigger" id='submit' type="submit" name="action" href='#matchModal'>Submit
-                
-                    </button>
+                <button class="btn waves-effect waves-light yellow darken-3 modal-trigger center-align" id='submit' type="submit" name="action" href='#matchModal'>Submit
+                </button>
 
             <div id="matchModal" class="modal">
-
-            <div class="modal-content">
+                <div class="modal-content">
                 <span class="close">&times;</span>
                 <h4 id='modalTxt'>Some text in the Modal..</h4>
-                <img id='modalPic'>
+                <img id='modalPic' class='responsive-img'>
+            </div>          
             </div>
-
-                      
-                
 
             </div>
         </div>
     </div>
-    
+
+    <footer class="page-footer green darken-3">
+            <div class="footer-copyright">
+                  © 2018 Adam Specker
+            </div>
+    </footer>   
+
+</div> 
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
