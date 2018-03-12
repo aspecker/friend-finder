@@ -3,18 +3,82 @@ var friends = [
     "name":"Yenn",
     "photo":"https://orig00.deviantart.net/253f/f/2017/176/f/0/tumblr_o79u1d3ikn1umgpcvo1_500_by_silver0whisp-dbe2584.jpg",
     "scores":[
-        5,
         1,
-        4,
-        4,
-        5,
         1,
-        2,
-        5,
-        4,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
         1
       ]
-  }
+  },
+  {
+    "name":"Shani",
+    "photo":"https://i.redd.it/hbr7ltwru7ly.jpg",
+    "scores":[
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+  },
+  {
+      "name": "Vlodimir",
+      "photo": "http://custom-gwent.com/cardsBg/69c85d487b7b9002061a088c11f650fe.jpeg",
+      "scores":[
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+      ]
+  },
+  {
+        "name": "Triss",
+        "photo": "https://cdnb.artstation.com/p/assets/images/images/007/064/491/large/lisa-schantl-triss-s-v1.jpg?1503418552",
+        "scores":[
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+        ]
+    },
+    {
+        "name": "Ciri",
+        "photo": "https://s-media-cache-ak0.pinimg.com/originals/1c/ef/98/1cef98049f11ee283399aad887e619b2.jpg",
+        "scores":[
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+        ]
+    }
 ]
 
 module.exports = friends;
