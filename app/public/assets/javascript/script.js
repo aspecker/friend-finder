@@ -60,7 +60,7 @@ var getMatch = ()=>{
 
 var createModal = (name,pic) =>{
     var modal = $('#matchModal');
-    $('#modalTxt').text(name);
+    $('#modalTxt').text(`Your match: ${name}`);
     $('#modalPic').attr('src',pic);
     $('.close').on('click',function(){
         $('#matchModal').modal('close');
